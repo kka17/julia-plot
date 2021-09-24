@@ -45,4 +45,5 @@ other_rects=[
 plot(some_rects[:,1], some_rects[:,2], label = "some group")
 plot!(other_rects[:,1], other_rects[:,2], label = "other group")
 # Парабола
+# jkjk
 # Гипербола
