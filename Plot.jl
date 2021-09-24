@@ -8,17 +8,20 @@ x = 1:2; y = rand(2)
 plot(x, y)
 # Я так и не поняла, как сделать 
 # зависимость типа y = 1, т.е.
-# прямую линию, проходящую через точку (1, 0)
+# прямую линию, проходящую через точку (1, 0),
 
 # Круг
-tmin = 0
-tmax = 4π
-tvec = range(tmin, tmax, length = 100)
+a = 0
+b = 4π
+c = range(a, b, length = 100)
 
-plot(sin.(tvec), cos.(tvec))
+plot(sin.(c), cos.(c))
 # Прямоугольник
-plotlyjs()
 
+plotlyjs()
+# ----------
+# Пример из туторила, который я не понимаю, как работает и он не запускается
+# ----------
 function rectangle_from_coords(xb,yb,xt,yt)
     [
         xb  yb
