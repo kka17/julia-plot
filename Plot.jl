@@ -18,32 +18,12 @@ c = range(a, b, length = 100)
 plot(sin.(c), cos.(c))
 # Прямоугольник
 
-plotlyjs()
-# ----------
-# Пример из туторила, который я не понимаю, как работает и он не запускается
-# ----------
-function rectangle_from_coords(xb,yb,xt,yt)
-    [
-        xb  yb
-        xt  yb
-        xt  yt
-        xb  yt
-        xb  yb
-        NaN NaN
-    ]
-end
-
-some_rects=[
-    rectangle_from_coords(1, 1, 5, 5)
-    rectangle_from_coords(10, 10, 15, 15)
-]
-other_rects=[
-    rectangle_from_coords(1, 10, 5, 15)
-    rectangle_from_coords(10, 1, 15, 5)
-]
-
-plot(some_rects[:,1], some_rects[:,2], label = "some group")
-plot!(other_rects[:,1], other_rects[:,2], label = "other group")
 # Парабола
-# jkjk
+x = []
+y = []
+for i in -1000:1:1000
+    push!(x, i)
+    push!(y, i^2)
+end
 # Гипербола
+(доделать)
