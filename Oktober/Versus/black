@@ -1,0 +1,23 @@
+# Мне нужно делить число до тех пор, пока is_prime_num возвращает 0, т.е. число не простой множитель
+# function div(n)
+#     # init = n
+#     cur = n
+#     while is_prime_num(cur) < 1
+#         cur = n/2
+#         println(cur)
+#     end
+# end
+# div(20)
+
+# function prime_factor(num::Int)
+#     init = num
+#     pf = []
+#     cur = 0
+
+#     if mod(num, 2) == 0
+#         return num = num/2
+#     elseif mod(num, 3) == 0
+#         return num = num/3
+#     else return init
+#     end
+# end
